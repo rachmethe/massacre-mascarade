@@ -32,7 +32,7 @@ function App() {
                             <h6
                                 className="font-semibold text-xl leading-8 text-black transition-all duration-500 group-hover:text-red-900 hover:underline">
                                 КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900">10000 &#8381;</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-red-900">&#8381;10000</h6>
                         </div>
                         <p className="mt-2 font-normal text-sm leading-6 text-gray-500">Кожа ручной покраски, паракорд, вощёная нить</p>
                     </div>
@@ -49,7 +49,7 @@ function App() {
                             <h6
                                 className="font-semibold text-xl leading-8 text-black transition-all duration-500 group-hover:text-red-900 hover:underline">
                                 КРАСНЫЙ БРЕЛОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900">5000 &#8381;</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-red-900">&#8381;5000</h6>
                         </div>
                         <p className="mt-2 font-normal text-sm leading-6 text-gray-500">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
                     </div>
