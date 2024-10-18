@@ -24,7 +24,7 @@ function App() {
                 <a href="javascript:;"
                     className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-white transition-all duration-500">
                     <div className="">
-                        <img src="/massacre-mascarade/public/images/vert-green.jpg" alt="face cream image"
+                        <img src="images/vert-green.jpg" alt="face cream image"
                             className="w-full aspect-auto rounded-2xl object-cover" />
                     </div>
                     <div className="mt-5">
@@ -41,7 +41,7 @@ function App() {
                 <a href="javascript:;"
                     className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-white transition-all duration-500">
                     <div className="">
-                        <img src="/massacre-mascarade/public/images/vert-red-fist.jpg" alt="face cream image"
+                        <img src="images/vert-red-fist.jpg" alt="face cream image"
                             className="w-full aspect-auto rounded-2xl object-cover" />
                     </div>
                     <div className="mt-5">
