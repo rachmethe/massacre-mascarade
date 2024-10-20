@@ -13,15 +13,15 @@ function App() {
             </a>
 
             <ul className='hidden xl:flex items-center gap-12 font-semibold text-base'>
-            <li className='p-3 hover:bg-red-900 hover:text-white rounded-md transition-all cursor-pointer font-black'>ПРОДУКТЫ</li>
-            <li className='p-3 hover:bg-red-900 hover:text-white rounded-md transition-all cursor-pointer font-black'>КОНТАКТЫ</li>
+            <li className='p-3 hover:bg-[#4C171A] hover:text-white rounded-md transition-all cursor-pointer font-black'>ПРОДУКТЫ</li>
+            <li className='p-3 hover:bg-[#4C171A] hover:text-white rounded-md transition-all cursor-pointer font-black'>КОНТАКТЫ</li>
             </ul>
         </header>
-        <section className="py-24">
+        <section className="py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-bold text-4xl text-[#A7686B] mb-8 max-lg:text-center">
+            {/* <h2 className="font-bold text-4xl text-[#A7686B] mb-8 max-lg:text-center">
                 ПРОДУКТЫ
-            </h2>
+            </h2> */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 bg-[#34090B] px-5 py-5 rounded-2xl">
                 <a href="javascript:;"
                     className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
@@ -32,11 +32,11 @@ function App() {
                     <div className="mt-5">
                         <div className="flex items-center justify-between bg-[#34090B]">
                             <h6
-                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline rounded-2xl">
+                                className="font-semibold text-xl leading-8 text-[#A76751] group-hover:text-[#A77968] hover:underline">
                                 КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#6AA064] rounded-2xl py-2 px-5">&#8381;10000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#A77968] border-4 border-[#A76751] hover:bg-[#4C171A] hover:text-slate-200 hover:border-[#A75155] py-2 px-5">ЗАКАЗАТЬ</h6>
                         </div>
-                        <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, вощёная нить</p>
+                        <p className="mt-2 font-normal text-sm leading-6 text-[#A76751]">Кожа ручной покраски, паракорд, вощёная нить</p>
                     </div>
                 </a>
 
@@ -49,11 +49,11 @@ function App() {
                     <div className="mt-5">
                         <div className="flex items-center justify-between">
                             <h6
-                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline">
+                                className="font-semibold text-xl leading-8 text-[#A76751] group-hover:text-[#A77968] hover:underline">
                                 КРАСНЫЙ БРЕЛОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#6AA064] rounded-2xl py-2 px-5">&#8381;5000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#A77968] border-4 border-[#A76751] hover:bg-[#4C171A] hover:text-slate-200 hover:border-[#A75155] py-2 px-5">ЗАКАЗАТЬ</h6>
                         </div>
-                        <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
+                        <p className="mt-2 font-normal text-sm leading-6 text-[#A76751]">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
                     </div>
                 </a>               
             </div>
