@@ -34,7 +34,7 @@ function App() {
                             <h6
                                 className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline rounded-2xl">
                                 КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;10000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#6AA064] rounded-2xl py-2 px-5">&#8381;10000</h6>
                         </div>
                         <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, вощёная нить</p>
                     </div>
@@ -51,7 +51,7 @@ function App() {
                             <h6
                                 className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline">
                                 КРАСНЫЙ БРЕЛОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;5000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#6AA064] rounded-2xl py-2 px-5">&#8381;5000</h6>
                         </div>
                         <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
                     </div>
