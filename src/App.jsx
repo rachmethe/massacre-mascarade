@@ -22,7 +22,7 @@ function App() {
             <h2 className="font-bold text-4xl text-[#A7686B] mb-8 max-lg:text-center">
                 ПРОДУКТЫ
             </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 bg-[#34090B] px-10 py-10 rounded-2xl">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 bg-[#34090B] px-5 py-5 rounded-2xl">
                 <a href="javascript:;"
                     className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                     <div >
