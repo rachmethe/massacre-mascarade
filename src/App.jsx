@@ -8,8 +8,8 @@ function App() {
     <body className='bg-cover bg-center bg-[url("https://raw.githubusercontent.com/rachmethe/massacre-mascarade/refs/heads/main/public/images/bg-img-sm.jpg")]'>
     
         <header className='bg-transparent flex justify-between items-center text-[#A7686B] py-6 px-8 md:px-32 drop-shadow-md'>
-            <a href='#'>
-            <img src={logo} alt='Massacre-Mascarade-Logo' className='w-96 hover:scale-105 transition-all'/>
+            <a href='#' className='w-full xl:mr-44'>
+            <img src={logo} alt='Massacre-Mascarade-Logo' className='w-full hover:scale-105 transition-all'/>
             </a>
 
             <ul className='hidden xl:flex items-center gap-12 font-semibold text-base'>
