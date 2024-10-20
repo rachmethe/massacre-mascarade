@@ -7,7 +7,7 @@ function App() {
     <>
     <body className='bg-cover bg-center bg-[url("https://raw.githubusercontent.com/rachmethe/massacre-mascarade/refs/heads/main/public/images/bg-img-sm.jpg")]'>
     
-        <header className='bg-transparent flex justify-between items-center text-[#A75155] py-6 px-8 md:px-32 drop-shadow-md'>
+        <header className='bg-transparent flex justify-between items-center text-[#A7686B] py-6 px-8 md:px-32 drop-shadow-md'>
             <a href='#'>
             <img src={logo} alt='Massacre-Mascarade-Logo' className='w-96 hover:scale-105 transition-all'/>
             </a>
@@ -19,7 +19,7 @@ function App() {
         </header>
         <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h2 className="font-bold text-4xl text-[#A75155] mb-8 max-lg:text-center">
+            <h2 className="font-bold text-4xl text-[#A7686B] mb-8 max-lg:text-center">
                 ПРОДУКТЫ
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 bg-[#34090B] px-10 py-10 rounded-2xl">
@@ -32,7 +32,7 @@ function App() {
                     <div className="mt-5">
                         <div className="flex items-center justify-between bg-[#34090B]">
                             <h6
-                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-red-900 hover:underline rounded-2xl">
+                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline rounded-2xl">
                                 КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК</h6>
                             <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;10000</h6>
                         </div>
@@ -49,7 +49,7 @@ function App() {
                     <div className="mt-5">
                         <div className="flex items-center justify-between">
                             <h6
-                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-red-900 hover:underline">
+                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-[#A7686B] hover:underline">
                                 КРАСНЫЙ БРЕЛОК</h6>
                             <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;5000</h6>
                         </div>
