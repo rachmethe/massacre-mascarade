@@ -30,18 +30,18 @@ function App() {
                             className="w-full aspect-auto rounded-2xl object-cover" />
                     </div>
                     <div className="mt-5">
-                        <div className="flex items-center justify-between bg-slate-300">
+                        <div className="flex items-center justify-between bg-[#34090B]">
                             <h6
-                                className="font-semibold text-xl leading-8 text-black transition-all duration-500 group-hover:text-red-900 hover:underline rounded-2xl">
+                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-red-900 hover:underline rounded-2xl">
                                 КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900">&#8381;10000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;10000</h6>
                         </div>
-                        <p className="mt-2 font-normal text-sm leading-6 text-gray-500">Кожа ручной покраски, паракорд, вощёная нить</p>
+                        <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, вощёная нить</p>
                     </div>
                 </a>
 
                 <a href="javascript:;"
-                    className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-white transition-all duration-500">
+                    className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                     <div className="">
                         <img src="https://github.com/rachmethe/massacre-mascarade/blob/main/public/images/vert-red-fist.jpg?raw=true" alt="face cream image"
                             className="w-full aspect-auto rounded-2xl object-cover" />
@@ -49,11 +49,11 @@ function App() {
                     <div className="mt-5">
                         <div className="flex items-center justify-between">
                             <h6
-                                className="font-semibold text-xl leading-8 text-black transition-all duration-500 group-hover:text-red-900 hover:underline">
+                                className="font-semibold text-xl leading-8 text-[#6AA064] transition-all duration-500 group-hover:text-red-900 hover:underline">
                                 КРАСНЫЙ БРЕЛОК</h6>
-                            <h6 className="font-semibold text-xl leading-8 text-red-900">&#8381;5000</h6>
+                            <h6 className="font-semibold text-xl leading-8 text-red-900 bg-[#6AA064] rounded-2xl py-5 px-5">&#8381;5000</h6>
                         </div>
-                        <p className="mt-2 font-normal text-sm leading-6 text-gray-500">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
+                        <p className="mt-2 font-normal text-sm leading-6 text-[#6AA064]">Кожа ручной покраски, паракорд, стальной шар, вощёная нить</p>
                     </div>
                 </a>               
             </div>
