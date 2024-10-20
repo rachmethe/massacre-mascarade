@@ -33,23 +33,25 @@ function App() {
                         </div>
                         <div className="mt-2 p-2.5 bg-[#34090B] bg-opacity-50 rounded-2xl border-8 border-[#4C171A]">
                             <div className="flex items-center justify-between bg-transparent">
-                                <h6
-                                    className="font-semibold text-xl leading-8 text-[#A76751] group-hover:text-[#A77968] pr-1.5">
-                                    КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК
-                                </h6>
                                 <div>
-                                    <button className="group relative inline-block items-center justify-center overflow-hidden rounded-lg px-8 py-5 font-black hover:text-slate-100 shadow-2xl">
-                                        <span className="ease absolute left-0 top-0 -ml-3 -mt-10 h-40 w-40 rounded-full bg-[#A75155] blur-md transition-all duration-700"></span>
-                                        <span className="ease absolute inset-0 h-full w-full transition duration-700 group-hover:rotate-180">
-                                            <span className="absolute bottom-0 left-0 h-24 w-24 rounded-full bg-[#441525] blur-md"></span>
-                                            <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-[#A34F6B] blur-md"></span>
-                                            <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-[#3B1B1D] blur-md"></span>
-                                            <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-red-900 blur-md"></span>
-                                            <span className="absolute bottom-0 right-0 -mr-10 h-24 w-24 rounded-full bg-[#2F0815] blur-md"></span>
-                                            <span className="absolute bottom-0 right-0 -mr-20 h-24 w-24 rounded-full bg-[#A7686B] blur-md"></span>
-                                        </span>
-                                        <span className="relative text-slate-300 hover:text-slate-100"><h6 className='font-semibold text-xl leading-8'>ЗАКАЗАТЬ</h6></span>
-                                    </button>
+                                    <h6
+                                        className="font-semibold text-xl leading-8 text-[#A76751] group-hover:text-[#A77968] pr-1.5">
+                                        КОРОТКИЙ ЗЕЛЁНЫЙ ПОВОДОК
+                                    </h6>
+                                    <div>
+                                        <button className="group relative inline-block items-center justify-center overflow-hidden rounded-lg px-8 py-5 font-black hover:text-slate-100 shadow-2xl">
+                                            <span className="ease absolute left-0 top-0 -ml-3 -mt-10 h-40 w-40 rounded-full bg-[#A75155] blur-md transition-all duration-700"></span>
+                                            <span className="ease absolute inset-0 h-full w-full transition duration-700 group-hover:rotate-180">
+                                                <span className="absolute bottom-0 left-0 h-24 w-24 rounded-full bg-[#441525] blur-md"></span>
+                                                <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-[#A34F6B] blur-md"></span>
+                                                <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-[#3B1B1D] blur-md"></span>
+                                                <span className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-red-900 blur-md"></span>
+                                                <span className="absolute bottom-0 right-0 -mr-10 h-24 w-24 rounded-full bg-[#2F0815] blur-md"></span>
+                                                <span className="absolute bottom-0 right-0 -mr-20 h-24 w-24 rounded-full bg-[#A7686B] blur-md"></span>
+                                            </span>
+                                            <span className="relative text-slate-300 hover:text-slate-100"><h6 className='font-semibold text-xl leading-8'>ЗАКАЗАТЬ</h6></span>
+                                        </button>
+                                    </div>
                                 </div>
                                 {/* <h6 className="font-semibold text-xl leading-8 text-[#34090B] bg-[#A77968] border-4 border-[#A76751] hover:bg-[#4C171A] hover:text-slate-200 hover:border-[#A75155] py-2 px-5">ЗАКАЗАТЬ</h6> */}
                             </div>
