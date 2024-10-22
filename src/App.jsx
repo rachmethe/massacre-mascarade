@@ -7,9 +7,9 @@ function App() {
   return (
     <>    
     <div className='bg-transparent relative min-h-screen w-screen overflow-hidden'>
-    <div className='absolute inset-0 z-0'>
-        <Spline className='w-full h-full md:object-cover object-cover min-h-screen' scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode" />
-    </div>
+        <div className='absolute inset-0 z-0 bg-[#34090B]'>
+            <Spline className='w-full h-full object-cover min-h-screen' scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode" />
+        </div>
         
     
         <header className='relative z-10 bg-transparent flex justify-between items-center text-slate-300 py-6 px-8 md:px-32 drop-shadow-md'>
