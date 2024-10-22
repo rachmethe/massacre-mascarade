@@ -8,7 +8,7 @@ function App() {
     <>    
     <div className='bg-transparent relative min-h-screen w-screen overflow-hidden'>
         <div className='absolute inset-0 z-0'>
-            <Spline className='w-full h-full object-cover overflow-hidden' scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode"/>;
+            <Spline className='w-full h-full md:object-cover object-contain' scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode" />
         </div>
         
     
