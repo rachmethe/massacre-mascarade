@@ -29,14 +29,14 @@ function App() {
         
         
 
-        <section className="relative z-10 bg-transparent flex justify-center items-center overflow-hidden">
+        <section className="relative z-10 bg-transparent flex justify-center items-center">
             <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-28 bg-transparent px-5 py-5 rounded-2xl">
 
                     <div>
                         <a href="javascript:;"
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
-                            <div >
+                            <div className='bg-[../assets/product-bg.png]'>
                                 <img src={mobileImg1} alt="face cream image"
                                     className="w-full aspect-auto rounded-2xl object-cover" />
                             </div>
