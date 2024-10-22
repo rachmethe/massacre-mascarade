@@ -1,6 +1,6 @@
 import logo from './assets/logo.svg';
-import mobileImg1 from './assets/vert-green-mobile.jpg';
-import mobileImg2 from './assets/vert-red-fist-mobile.jpg';
+import mobileImg1 from './assets/vert-green-mobile-outline.png';
+import mobileImg2 from './assets/vert-red-fist-mobile-outline.png';
 import './App.css';
 import Spline from '@splinetool/react-spline';
 
@@ -29,7 +29,7 @@ function App() {
         
         
 
-        <section className="relative z-10 bg-transparent flex justify-center items-center">
+        <section className="relative z-10 bg-transparent flex justify-center items-center overflow-hidden">
             <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-28 bg-transparent px-5 py-5 rounded-2xl">
 
@@ -38,7 +38,7 @@ function App() {
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div >
                                 <img src={mobileImg1} alt="face cream image"
-                                    className="w-full aspect-auto rounded-2xl object-cover border-8 border-[#4C171A]" />
+                                    className="w-full aspect-auto rounded-2xl object-cover" />
                             </div>
                             <div className="mt-2 p-2.5 bg-[#34090B] bg-opacity-50 rounded-2xl border-8 border-[#4C171A]">
                                 <h6 className="font-semibold text-xl leading-8 text-slate-300 hover:text-slate-100">
@@ -73,7 +73,7 @@ function App() {
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div className="">
                                 <img src={mobileImg2} alt="face cream image"
-                                    className="w-full aspect-auto rounded-2xl object-cover border-8 border-[#4C171A]" />
+                                    className="w-full aspect-auto rounded-2xl object-cover" />
                             </div>
                             <div className="mt-2 p-2.5 bg-[#34090B] bg-opacity-50 rounded-2xl border-8 border-[#4C171A]">
                                 <h6 className="font-semibold text-xl leading-8 text-slate-300 hover:text-slate-100">
