@@ -1,4 +1,6 @@
 import logo from './assets/logo.svg';
+import mobileImg1 from './assets/vert-green-mobile.jpg';
+import mobileImg2 from './assets/vert-red-fist-mobile.jpg';
 import './App.css';
 import Spline from '@splinetool/react-spline';
 
@@ -35,7 +37,7 @@ function App() {
                         <a href="javascript:;"
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div >
-                                <img src="https://github.com/rachmethe/massacre-mascarade/blob/main/public/images/vert-green.jpg?raw=true" alt="face cream image"
+                                <img src={mobileImg1} alt="face cream image"
                                     className="w-full aspect-auto rounded-2xl object-cover border-8 border-[#4C171A]" />
                             </div>
                             <div className="mt-2 p-2.5 bg-[#34090B] bg-opacity-50 rounded-2xl border-8 border-[#4C171A]">
@@ -70,7 +72,7 @@ function App() {
                         <a href="javascript:;"
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div className="">
-                                <img src="https://github.com/rachmethe/massacre-mascarade/blob/main/public/images/vert-red-fist.jpg?raw=true" alt="face cream image"
+                                <img src={mobileImg2} alt="face cream image"
                                     className="w-full aspect-auto rounded-2xl object-cover border-8 border-[#4C171A]" />
                             </div>
                             <div className="mt-2 p-2.5 bg-[#34090B] bg-opacity-50 rounded-2xl border-8 border-[#4C171A]">
