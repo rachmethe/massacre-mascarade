@@ -68,7 +68,7 @@ function App() {
                         </a>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <a href="javascript:;"
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div className="">
@@ -102,7 +102,7 @@ function App() {
                             </div>
 
                         </a>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
