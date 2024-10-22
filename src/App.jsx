@@ -68,7 +68,7 @@ function App() {
                         </a>
                     </div>
 
-                    <div className='pb-20'>
+                    <div className='pb-20 md:pb-15 lg:pb-10 xl:pb-5 2xl:pb-0'>
                         <a href="javascript:;"
                             className="mx-auto sm:mr-0 group cursor-pointer lg:mx-auto bg-[#34090B] transition-all duration-500">
                             <div className="">
