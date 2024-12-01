@@ -16,9 +16,9 @@ const Leads = () => {
       ></div>
 
       {/* Контент страницы */}
-      <div className="relative mt-10 mx-5 flex flex-col items-center justify-center">
+      <div className="relative mt-10 mx-5 flex flex-col text-left">
         {/* Заголовок страницы */}
-        <h2 className="text-2xl text-slate-300 mb-6">Поводки</h2>
+        <h2 className="text-2xl pl-10 sm:pl-10 md:pl-28 lg:pl-96 text-slate-300 mb-6">Поводки</h2>
         {/* div ниже я хочу сделать меньше, как? */}
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8"> {/* Уменьшена ширина контейнера */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 bg-transparent px-3 py-3 rounded-xl">
