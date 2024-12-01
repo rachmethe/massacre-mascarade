@@ -42,7 +42,7 @@ const Products = () => {
           className="
             relative 
             w-full 
-            border-4 border-red-800 overflow-hidden 
+            border-4 border-[#4C171A] overflow-hidden 
             rounded-xl 
             max-w-md md:max-w-lg lg:max-w-6xl 
             flex flex-col md:flex-row lg:flex-row
@@ -64,7 +64,7 @@ const Products = () => {
               {['Поводки', 'Брелки', 'Протупеи', 'Ошейники'].map((category) => (
                 <li
                   key={category}
-                  className="p-4 rounded-md border border-red-800 hover:underline cursor-pointer transition-all"
+                  className="p-4 rounded-md border border-[#4C171A] hover:underline cursor-pointer transition-all"
                   onClick={() => handleCategoryClick(category)}
                 >
                   {category}

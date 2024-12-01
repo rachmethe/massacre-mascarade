@@ -15,7 +15,7 @@ const Contacts = () => {
       {/* Контент страницы */}
       <div className="relative flex items-center justify-center">
         {/* Карточка с категориями */}
-        <div className="relative w-full max-w-4xl aspect-video rounded-xl border-4 border-red-800 overflow-hidden">
+        <div className="relative w-full max-w-4xl aspect-video rounded-xl border-4 border-[#4C171A] overflow-hidden">
           
 
           {/* Секция с категориями */}

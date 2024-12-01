@@ -31,14 +31,8 @@ const Header = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div
-          className="absolute top-0 left-3 right-3 bg-[#4C171A] rounded-lg shadow-lg p-6 flex flex-col items-start gap-4 z-50 max-h-[90vh] overflow-y-auto"
+          className="absolute top-28 left-3 right-3 bg-[#4C171A] rounded-lg shadow-lg p-6 flex flex-col items-start gap-4 z-50 max-h-[90vh] overflow-y-auto"
         >
-          <button
-            className="self-end text-white text-2xl mb-2 focus:outline-none"
-            onClick={toggleMenu}
-          >
-            ✖
-          </button>
           <Link
             to="/products"
             className="text-white hover:bg-[#A75155] p-3 rounded-md font-black w-full text-left transition-all"
