@@ -5,14 +5,25 @@ import mobileImg2 from '../assets/vert-red-fist-mobile-outline.png';
 import productBG from '../assets/product-bg.png';
 import Header from '../components/layouts/Header';
 import Spline from '@splinetool/react-spline';
+import imageBG from '../assets/image-bg.jpg'; //
 
 const Home = () => {
   return (
     <>
       <Header />
-      <div className='absolute inset-0 z-0 bg-product'>
-              <Spline className='w-full h-full object-cover min-h-screen' scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode" />
+      {/* Фон для десктопов */}
+      <div className="hidden md:block absolute inset-0 z-0 bg-product">
+        <Spline
+          className="w-full h-full object-cover min-h-screen"
+          scene="https://prod.spline.design/eW9BExXvojrw8NFW/scene.splinecode"
+        />
       </div>
+
+      {/* Фон для мобильных */}
+      <div
+        className="block md:hidden absolute inset-0 z-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${imageBG})` }}
+      ></div>
       <section className="relative z-10 bg-transparent flex justify-center items-center">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-28 bg-transparent px-5 py-5 rounded-2xl">
